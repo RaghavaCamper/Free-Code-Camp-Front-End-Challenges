@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <title> A tribute page </title>
+  </head>
+  <body>
+   <div class="container-fluid"><!--start of the container fluid-->
+    <div class="box"><!-- start of box div-->
+      <div class="header" id="header">
+        <h1> Abraham Lincoln </h1>
+        <p> America's greatest president </p>
+  </div><!--end of header container-->
+      <div class="polaroid">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Abraham_Lincoln_November_1863.jpg" target="_blank" alt="lincoln"> </img>
+      <div class="container">
+        <p><b>The official White house portrait of Abraham  Lincoln</b> </p>
+ </div><!-- end of container div-->
+    </div><!-- end of polaroid div-->
+<div class="footer"  id="footer">
+  <p> A Timeline on Abraham Licoln's life: </p>
+  <ul id="list1" class="list">
+          <li> <b>1809</b>-Born in Kentucky United-States </li>
+          <li> <b> 1816 </b>-Lincoln's family relocates to Indiana where Lincoln spends his most productive years where he spends his time learning and playing.</li>
+          <li> <b>1818</b>- A tragic year in the life of Lincoln as his mother dies of milk sickness </li>
+          <li> <b>1819</b>- Lincoln gets a step-mother as his father Thomas Lincoln marries an another woman who is a widow named Sarah Bush Johnston </li>
+          <li> <b>1828</b>- Another tragedy in lincoln's life as his eldest sister Sarah Lincoln dies during Childbirth.So many tragedies already faced by the young Lincoln </li>
+          <li> <b>1830</b>- The Lincoln family again relocatesto Illinois to settle in a section of government land bisected by the river </li>
+          <li> <b>1831</b>- Abraham Lincoln gets separated from his family for the first time in his life as he decides to go to New-Orleans </li>
+          <li> <b>1832</b>- This year marks the start of Lincoln's political career as he becomes a candidate for Illinois General Assembly </li>
+          <li> <b>1834</b>- Another footstep in Lincoln's life as he is elected to the Illinois State Legislature </li>
+          <li> <b>1843</b>- A turning point in Lincoln's personal life as he is married to Mary Todd the daughter of a prominent slave-owning family in kentucku </li>
+          <li> <b>1846</b>- Lincoln's position in Congress is elevated as he is elected as Congress Whig representative from Illinois </li>
+          <li> <b>1851</b>- Lincoln represents the Alton and Sangamon Rail-Road in a dispute with one of its shareholders James.A.Barret </li>
+          <li> <b>1854</b>- Lincoln delivers the Preoria speech, This marks his first speech against Slavery </li>
+          <li> <b>1858</b>- Lincoln loses his first debate on Lincoln-Douglas debates on slavery </li>
+          <li> <b>1860</b>- Abraham Lincoln is elected as the sixteenth president of the United states of America </li>
+          <li> <b>1862</b>- Abraham Lincoln signs the first tender act and the emanicipation act </li>
+          <li> <b>1863</b>- Abraham Lincoln signs an act presenting with the creation of the Idaho territory </li>
+          <li> <b>1863</b>- Lincoln delivers his most famous Gettysburg Address </li>
+          <li> <b>1865</b>- President Abraham Lincoln is assassinated by John Wilkes Booth </li>
+          </ul>
+ <blockquote>
+   "When Lincoln was asked if God was on the Union’s side, Lincoln’s unvarying response was that what was really important was whether they were on God’s side." <br><br>
+   
+        - John.L.Wheeler
+   </div><!-- end of the footer tag-->
+   <p id="para"> If you have time,you should read more about this great personality on his <a href="https://en.wikipedia.org/wiki/Abraham_Lincoln"> Wikipedia article </a>
+   </p>
+  
+  
+       
+      </div><!-- end of the boxmodel -->
+    </div><!-- end of the container fluid-->
+  </body>
+</html>
