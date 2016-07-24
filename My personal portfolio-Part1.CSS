@@ -1,39 +1,39 @@
-body {
-  background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTwQtBBFH_0F0VP_2GSvsOAxIQKpq5H9lk0yivsylg5PHJoKEv02A");
-  background-size: cover;
-  background-repeat : no-repeat;
+body{
+  height: 3600px;
 }
-.centered {
-  position: fixed;
-  top : 50%;
-  left: 50%;
-  transform: translate(-45%, -155%);
-  font-size: 50px;
+.firstpage{
+  height: 900px;
+  margin-top: 30px;
+  background-image: url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTwQtBBFH_0F0VP_2GSvsOAxIQKpq5H9lk0yivsylg5PHJoKEv02A');
+  background-size: cover;
+}
+.firstpage h1{
+  margin-top: 60px;
+  font-size: 60px;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 160px;
+  padding-left: 175px;
   font-family: Trebuchet MS;
   text-shadow: 1px 1px 1px yellow,
 	  	             2px 2px 1px red;
 }
-#para{
-  position: fixed;
-  top: 50%;
-  left: 35%;
-  font-size: 30px;
-  font-family: Trebuchet MS;
-  font-style: inherit;
-  color: #000000;
+.firstpage p {
+  text-align: center;
+  padding-left: 160px;
+  font-size: 40px;
+  font-family:Trebuchet MS;
+  padding-top: 1px;
   text-shadow: 1px 1px 1px white,
 	  	             2px 2px 1px red;
-	
 }
-.line {
+.line{
+  width:850px;
   background-color: #fff;
-	border-top: 3px dashed #8c8b8b;
-  margin-top: 330px;
-  margin-left: 90px;
-  margin-right: 20px;
-  width: 110%;
+  border-top: 3px dashed #8c8b8b;
 }
-.btn{
+.buttons .btn{
+  margin-top: -5px;
   display: inline-block;
   color: #000;
   border: 3.5px outset rgba(1, 0, 0, 1);
@@ -42,25 +42,16 @@ body {
   box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
   letter-spacing: 1.5px;
   transition: 0.4s;
-  border-radius: 24px;
-  margin-left: 20%;
-}
-#FreeCodeCamp{
-  margin-left:10px;
-  border-radius: 24px;
-}
-#Github{
-  margin-left: 10px;
-  border-radius: 24px;
+  border-radius: 35px;
+  margin-left: 40%;
+  padding: 18px 28px;
 }
 #linkedin{
   margin-left: 14px;
-  border-radius: 24px;
 }
-#facebook{
-  margin-left: 100px;
+#FreeCodeCamp{
+  margin-left:80px;
 }
-
 .btn:hover {
 	color: #FFD700;
   border: 2px outset rgba(0, 0, 0, 0.9);
@@ -99,5 +90,31 @@ color: 	gold;
   background: black;
   color: gold;
 }
-
+.secondpage{
+  background-image: url('http://www.qarmazi.com/5/2015/07/bamboo-flats-abstract-architectural-abstract-design.jpg');
+    height: 900px;
+}
+#firstpara{
+  font-size: 20px;
+  float:left;
+  display:inline-block;
+  padding-right: 500px;
+  padding-left: 50px;
+  padding-top: 260px;
+  color: 			#000000;
+  font-weight: bolder;
+}
+#profilepic{
+  margin-left: 540px;
+  margin-top: -470px;
+  height: 250px;
+}
+#secondpara{
+  font-size: 20px;
+  padding-right: 400px;
+  padding-left: 1px;
+  color:  #800000;
+  font-weight: bolder;
+  
+}
 
