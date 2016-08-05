@@ -1,0 +1,19 @@
+Javascript Code//
+
+
+function palindrome(str) {
+  
+  var str1 = str.replace(/\(.+?\)/g, '');
+  var str2 = str1.replace(/[^a-z0-9+]+/gi, '');
+  var str3 = str2.toLowerCase();
+  var str4 = str3.split('').reverse().join('');
+  if(str3 == str4)
+    {
+      return true;
+    }
+  else
+    {
+      return false;
+    }
+   
+}
