@@ -1,0 +1,31 @@
+function confirmEnding(str, target) {
+  // "Never give up and good luck will find you."
+  // -- Falcor
+  var string;
+  var arr;
+  var string2;
+  var index;
+  
+  if (/\s/.test(str)) {
+    string = str.split(' ');
+    arr = string.slice(-1).pop();
+    string2 = arr.toString();
+  
+  }
+  else{
+    string = str.split('');
+    arr = string.slice(-1).pop();
+    string2 = arr.toString();
+  }
+  index = string2.indexOf(target);
+  if(index >= 0){
+    return true;
+  }
+  else{
+    return false;
+  }
+  
+
+  
+
+}
