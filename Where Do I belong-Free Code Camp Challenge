@@ -1,0 +1,17 @@
+function getIndexToIns(arr, num) {
+  var array;
+  array = arr.sort(function(a,b)
+                       {
+    return a - b;
+    
+  });
+  for(var i=0;i<array.length;i++)
+    {
+      if(array[i] >= num)
+        {
+          return parseInt(i);
+        }
+    }
+  return array.length;
+
+}
