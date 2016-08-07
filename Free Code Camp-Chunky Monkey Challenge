@@ -1,0 +1,11 @@
+function chunkArrayInGroups(arr, size) {
+  // Break it up.
+  var newarr= [];
+  var i=0;
+  while(i< arr.length)
+    {
+      newarr.push(arr.slice(i,i+size));
+      i=i+size;
+    }
+  return newarr;
+}
