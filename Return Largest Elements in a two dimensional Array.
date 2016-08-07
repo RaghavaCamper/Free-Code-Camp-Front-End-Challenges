@@ -1,0 +1,20 @@
+function largestOfFour(arr) {
+  // You can do this!
+  var temp=[];
+  for(var i=0; i< arr.length;i++)
+    {
+      var big=0;
+      for(var j=0; j< arr[i].length;j++)
+        {
+          if(arr[i][j] > big)
+            {
+              big=arr[i][j];
+            }
+        }
+   
+    temp[i]= big;
+    }
+  return temp;
+  
+ 
+}
